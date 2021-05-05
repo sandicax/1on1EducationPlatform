@@ -63,7 +63,7 @@ dependencies:
   flutter_spinkit: "^4.1.2"
   mailer: ^3.0.4
   nice_button: ^0.1.7
-  wiredash: ^0.4.0
+  wiredash: ^0.2.0
   appcenter: ^0.2.1
 
 dev_dependencies:
