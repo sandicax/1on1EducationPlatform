@@ -11,10 +11,12 @@ cd ..
 # stable - recommended for production
 
 git clone -b stable https://github.com/flutter/flutter.git
+git checkout v1.22.6
 export PATH=`pwd`/flutter/bin:$PATH
 
 flutter channel stable
 flutter doctor
+flutter clean
 flutter build apk --release
 
 # copy the APK where AppCenter will find it
