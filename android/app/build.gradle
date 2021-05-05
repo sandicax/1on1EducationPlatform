@@ -53,7 +53,7 @@ android {
             keyAlias System.getenv("APPCENTER_KEY_ALIAS")
             keyPassword System.getenv("APPCENTER_KEY_PASSWORD")
         }
-    }
+    } 
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
